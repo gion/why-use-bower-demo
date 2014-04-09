@@ -1,0 +1,22 @@
+{
+  "name": "bower",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gion/why-use-bower-demo",
+  "authors": [
+    "bogdan gradinariu <bogdan.gradinariu@xivic.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.0"
+  },
+  "resolutions": {
+    "jquery": "1.11.0"
+  }
+}

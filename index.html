@@ -8,14 +8,14 @@
 			}
 		</style>
 		<!-- add jquery -->
-		<script src=""></script>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
 	</head>
 	<body>
 		<div id="box"></div>
 		
 		<script>
 		<!-- add a script that animates the box -->
-		
+		$('#box').animate({marginLeft: '+=200px'}, 2000);
 		</script>
 	</body>
 </html>
